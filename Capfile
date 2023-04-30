@@ -34,7 +34,7 @@ require "capistrano/rbenv"
 require "capistrano/rails"
 # require "capistrano/rails/migrations"
 require "capistrano/passenger"
-require "capistrano/secrets_yml"
+#require "capistrano/secrets_yml"
 set :rbenv_type, :user
 set :rbenv_ruby, '3.2.2'
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
