@@ -10,8 +10,14 @@
 # best guess - the guide says use public IP address, but there isn't a static one... I'm not sure what db means, but the guide had a db made...
 #server "rails.adruc.com", user: "curdog", roles: %w{app db web}
 #server "192.168.1.84", user: "curdog", roles: %w{app db web}
+#directly below got to key must be 16 bits
+#server "beepboop", user: "curdog", roles: %w{app web}
+
+#tetsing new configs
+server "192.168.1.101", user: "curdog", roles: %w{app db web}
 #server "beepboop", user: "curdog", roles: %w{app db web}
-server "beepboop", user: "curdog", roles: %w{app web}
+#server "rails.adruc.com", user: "curdog", roles: %w{app db web}
+
 
 
 
