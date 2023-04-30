@@ -14,8 +14,8 @@
 #server "beepboop", user: "curdog", roles: %w{app web}
 
 #tetsing new configs
-server "192.168.1.101", user: "curdog", roles: %w{app db web}
-#server "beepboop", user: "curdog", roles: %w{app db web}
+#server "192.168.1.101", user: "curdog", roles: %w{app db web}
+server "beepboop", user: "curdog", roles: %w{app db web}
 #server "rails.adruc.com", user: "curdog", roles: %w{app db web}
 
 
